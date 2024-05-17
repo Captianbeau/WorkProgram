@@ -1,0 +1,64 @@
+/* Custom styles to enhance Bulma elements and maintain your design requirements */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    /* Padding removed to allow Bulma containers to manage spacing */
+}
+
+/* Enhance container for Bulma compatibility */
+.container {
+    max-width: 80%; /* Adjust based on Bulma's container width */
+    margin: auto;
+    overflow: hidden;
+}
+.log {
+    margin-right: 10px;
+}
+/* Custom table styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Form input enhancements for Bulma compatibility */
+.input, select {
+    width: 100%;
+    /* Other styles inherited from Bulma */
+}
+
+/* Adjustments for Bulma button styles */
+.button {
+    /* Additional custom button styles if needed */
+}
+
+/* Issues and form styling adjustments */
+#unIssue, .issueCreate {
+    /* Add custom styles or rely on Bulma's tiles and input */
+}
+
+/* Responsive adjustments for Bulma's flexbox layout */
+.left-side, .right-side {
+    /* Custom styles or use Bulma's columns */
+}
+.vehiclelist{
+    background-color: aliceblue;
+}
+/* Additional customizations for specific project needs */
+/* Add or modify as needed based on your layout and design preferences */
